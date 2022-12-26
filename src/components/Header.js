@@ -35,6 +35,10 @@ const Container = styled.div`
  align-items : center;
  justify-content : space-between;
  padding : 0 20px; 
+ position : fixed;
+ top : 0;
+ left : 0;
+ right : 0;
 `
 
 const MenuGroup = styled.div`
@@ -45,7 +49,6 @@ const MenuGroup = styled.div`
   padding : 0 10px; 
   cursor : pointer; 
  }
-
 `
 
 const RightMenu = styled.div`
@@ -62,5 +65,4 @@ const MenuIconContainer = styled.div`
  display : flex; 
  align-items : center; 
  cursor : pointer;
-
 `
